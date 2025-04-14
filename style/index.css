@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #0E1113;
+
+
+  }
+
+header {
+  font-size: 40px;
+  display:  flex;
+  justify-content: space-around;
+  color: white;
+  padding: 15px 0;
+
+}
+
+.container_header{
+  align-items: center;
+}
+
+nav a, .header_nome {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover, .header_nome:hover {
+  text-decoration: underline;
+}
+
+.main_introducao{
+  margin: 15%;
+  margin-top: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main_introducao h1{
+  font-size: 60px;
+}
+
+.main_introducao img{
+  border-radius: 50%;
+  width: 22%;
+  height: 22%;
+}
