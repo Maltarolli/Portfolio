@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #0E1113;
+  }
+  main{
+    height: 100vh;
+    place-items: center;
+}
+.container{
+  display: grid;
+  margin: 5vw;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+header {
+  font-size: 20px;
+  display:  flex;
+  justify-content: space-around;
+  color: white;
+  padding: 15px 0;
+  margin-bottom: 5vw;
+}
+
+.container_header{
+  align-items: center;
+}
+
+nav a, .header_nome {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover, .header_nome:hover {
+  text-decoration: underline;
+}
+
+.main_introducao{
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+
+.img_perfil{
+  margin: auto;
+  margin-left: 0;
+  border-radius: 50%;
+  width: 23vw;
+  height: 23vw;
+}
+
+#titulo_projeto{
+  margin: 5vw;
+  justify-self: start;
+  color: white;
+}
+
+.projetos{
+  margin-bottom: 5vw;
+}
+.img-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem preencher e cortar se necessário */
+  display: block; /* Remove espaços extras abaixo da imagem */
+}
