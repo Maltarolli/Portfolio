@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0;
     background-color: #0E1113;
   }
@@ -8,10 +8,13 @@ body {
 }
 .container{
   display: grid;
-  margin: 5vw;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
 
+}
+
+.container_introducao{
+  margin: 5vw;
 }
 
 header {
@@ -38,9 +41,8 @@ nav a:hover, .header_nome:hover {
   text-decoration: underline;
 }
 
-.main_introducao{
+.text_introducao{
   margin: auto;
-  font-size: 20px;
   color: white;
 }
 
@@ -54,16 +56,65 @@ nav a:hover, .header_nome:hover {
 
 #titulo_projeto{
   margin: 5vw;
+  margin-bottom: 2vw;
   justify-self: start;
   color: white;
 }
 
-.projetos{
+.card_projetos{
   margin-bottom: 5vw;
+  background: #0E1113;
+  border: 0.2vw solid #212427;
+  color: white;
+  padding: 1vw;
+  border-radius: 10px;
+
 }
 .img-full {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Faz a imagem preencher e cortar se necessário */
   display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+
+.cartao {
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  border: 0.2vw solid #212427;
+  background: #0E1113;
+  
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.linha {
+  border-left: 2px solid #444;
+  padding-left: 20px;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.ponto {
+  width: 10px;
+  height: 10px;
+  background: #888;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: 6px;
+}
+
+.periodo {
+  font-size: 14px;
+  color: #ccc;
 }
